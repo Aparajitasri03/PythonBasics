@@ -1,0 +1,21 @@
+# Sample code to perform I/O:
+
+name = input()                  # Reading input from STDIN
+print('Hi, %s.' % name)         # Writing output to STDOUT
+
+# Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
+'''
+
+# Write your code here
+n=int(input())
+
+a=list(map(int,input().split()))[:n]
+
+print(sum(a))
+
+#output
+#Input
+#5
+#1000000001 1000000002 1000000003 1000000004 1000000005
+#Output
+#5000000015
